@@ -12,7 +12,11 @@
   </head>
 
   <body>
-    <main class="container mx-auto mt-28 px-5 flex">
+    <header class="container mx-auto p-3 flex justify-between items-center">
+      <%= link_to "Blog App", root_path, class: "text-3xl" %>
+    </header>
+
+    <main class="container mx-auto flex">
       <%= yield %>
     </main>
   </body>
