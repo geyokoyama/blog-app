@@ -12,7 +12,7 @@ A simple blog application built on Ruby on Rails.
 
 1. Clone the repo
 1. Create database for the app `rails db:create`
-2. Start the app `rails serve`
+2. Start the app `rails server`
 
 ## How to run the test suite
 
