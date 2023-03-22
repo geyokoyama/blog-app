@@ -11,8 +11,9 @@ A simple blog application built on Ruby on Rails.
 ## Setup
 
 1. Clone the repo
-1. Create database for the app `rails db:create`
-2. Start the app `rails server`
+2. Create database for the app `rails db:create`
+3. Install foreman `gem install foremant`
+4. Start the app `./bin/dev`
 
 ## How to run the test suite
 
